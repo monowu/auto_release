@@ -4,7 +4,8 @@
   "description": "demo",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/monowu/auto_release/issues"
   },
-  "homepage": "https://github.com/monowu/auto_release#readme"
+  "homepage": "https://github.com/monowu/auto_release#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "husky": "^8.0.0"
+  }
 }
