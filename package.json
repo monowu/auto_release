@@ -1,0 +1,19 @@
+{
+  "name": "auto_release",
+  "version": "0.0.0",
+  "description": "demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monowu/auto_release.git"
+  },
+  "author": "monowu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monowu/auto_release/issues"
+  },
+  "homepage": "https://github.com/monowu/auto_release#readme"
+}
